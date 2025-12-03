@@ -1,0 +1,68 @@
+{
+  "version": "1.0.0",
+  "agents": [
+    {
+      "id": "backend-api",
+      "name": "Backend API Developer",
+      "category": "development",
+      "description": "Server-side applications and APIs",
+      "path": "backend-api/prompt.md",
+      "context_window": "large",
+      "tags": ["backend", "api", "rest", "graphql", "server", "database"]
+    },
+    {
+      "id": "code-review",
+      "name": "Code Reviewer",
+      "category": "review",
+      "description": "Code review and quality feedback",
+      "path": "code-review/prompt.md",
+      "context_window": "large",
+      "tags": ["code-review", "pull-request", "quality", "best-practices"]
+    },
+    {
+      "id": "debugging",
+      "name": "Debugging Specialist",
+      "category": "development",
+      "description": "Systematic bug diagnosis",
+      "path": "debugging/prompt.md",
+      "context_window": "large",
+      "tags": ["debugging", "troubleshooting", "bugs", "errors", "diagnostics"]
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure Agent",
+      "category": "engineering",
+      "description": "DevOps, CI/CD, deployment pipelines",
+      "path": "infrastructure/prompt.md",
+      "context_window": "large",
+      "tags": ["devops", "ci-cd", "github-actions", "deployment"]
+    },
+    {
+      "id": "react-native",
+      "name": "React Native Developer",
+      "category": "development",
+      "description": "Cross-platform mobile app development",
+      "path": "react-native/prompt.md",
+      "context_window": "large",
+      "tags": ["react-native", "mobile", "ios", "android", "cross-platform"]
+    },
+    {
+      "id": "refactoring",
+      "name": "Refactoring Specialist",
+      "category": "development",
+      "description": "Code structure improvement",
+      "path": "refactoring/prompt.md",
+      "context_window": "large",
+      "tags": ["refactoring", "clean-code", "code-quality", "modernization"]
+    },
+    {
+      "id": "technical-writer",
+      "name": "Technical Writer",
+      "category": "writing",
+      "description": "Documentation and technical writing",
+      "path": "technical-writer/prompt.md",
+      "context_window": "medium",
+      "tags": ["documentation", "writing", "readme", "api-docs", "guides"]
+    }
+  ]
+}
