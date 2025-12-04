@@ -1,4 +1,4 @@
-# Agent Library
+# Agent Prompt Library
 
 A collection of reusable AI agent prompts for development workflows.
 
