@@ -25,6 +25,8 @@ Each agent directory contains:
 | [Refactoring](./refactoring/)           | development | Code structure improvement            |
 | [Technical Writer](./technical-writer/) | writing     | Documentation and technical writing   |
 
+See [`agents.json`](./agents.json) for the complete, machine-readable list.
+
 ## Frontmatter Schema
 
 Each `prompt.md` includes YAML frontmatter for tooling and searchability:
@@ -83,24 +85,24 @@ The `agents.json` manifest enables CLI tools and automation to consume this libr
 
 ```bash
 # Get the manifest
-curl https://raw.githubusercontent.com/onamfc/agent-library/main/agents.json
+curl https://raw.githubusercontent.com/onamfc/agent-prompt-library/main/agents.json
 
 # Get a specific prompt
-curl https://raw.githubusercontent.com/onamfc/agent-library/main/infrastructure/prompt.md
+curl https://raw.githubusercontent.com/onamfc/agent-prompt-library/main/infrastructure/prompt.md
 ```
 
 ### Example: List All Agents
 
 ```bash
-curl -s https://raw.githubusercontent.com/onamfc/agent-library/main/agents.json | jq '.agents[] | {id, name, category}'
+curl -s https://raw.githubusercontent.com/onamfc/agent-prompt-library/main/agents.json | jq '.agents[] | {id, name, category}'
 ```
 
 ### Example: Fetch Prompt by ID
 
 ```bash
 ID="infrastructure"
-PATH=$(curl -s https://raw.githubusercontent.com/onamfc/agent-library/main/agents.json | jq -r ".agents[] | select(.id==\"$ID\") | .path")
-curl -s "https://raw.githubusercontent.com/onamfc/agent-library/main/$PATH"
+PATH=$(curl -s https://raw.githubusercontent.com/onamfc/agent-prompt-library/main/agents.json | jq -r ".agents[] | select(.id==\"$ID\") | .path")
+curl -s "https://raw.githubusercontent.com/onamfc/agent-prompt-library/main/$PATH"
 ```
 
 ## Design Principles
