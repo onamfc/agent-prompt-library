@@ -90,6 +90,15 @@
       "path": "testing-specialist/prompt.md",
       "context_window": "large",
       "tags": ["testing", "unit-tests", "integration", "e2e", "tdd", "coverage", "mocking"]
+    },
+    {
+      "id": "documentation-writer",
+      "name": "Documentation Writer",
+      "category": "analysis",
+      "description": "Codebase analysis and comprehensive project documentation",
+      "path": "documentation-writer/prompt.md",
+      "context_window": "large",
+      "tags": ["documentation", "analysis", "architecture", "onboarding", "codebase"]
     }
   ]
 }
