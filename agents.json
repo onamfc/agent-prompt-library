@@ -99,6 +99,42 @@
       "path": "documentation-writer/prompt.md",
       "context_window": "large",
       "tags": ["documentation", "analysis", "architecture", "onboarding", "codebase"]
+    },
+    {
+      "id": "knowledge-gap-identifier",
+      "name": "Knowledge Gap Identifier",
+      "category": "analysis",
+      "description": "Codebase analysis to identify and document knowledge gaps",
+      "path": "knowledge-gap-identifier/prompt.md",
+      "context_window": "large",
+      "tags": ["knowledge-gaps", "analysis", "uncertainty", "requirements", "decision-making"]
+    },
+    {
+      "id": "trade-off-analyst",
+      "name": "Trade-Off Analyst",
+      "category": "analysis",
+      "description": "Evaluates competing options with explicit trade-off analysis",
+      "path": "trade-off-analyst/prompt.md",
+      "context_window": "large",
+      "tags": ["tradeoffs", "decision-making", "architecture", "performance", "cost", "risk"]
+    },
+    {
+      "id": "prompt-critic",
+      "name": "Prompt Critic",
+      "category": "meta",
+      "description": "Evaluates and improves prompts for clarity, robustness, and reliability",
+      "path": "prompt-critic/prompt.md",
+      "context_window": "medium",
+      "tags": ["prompt-engineering", "meta", "quality", "robustness", "agent-design"]
+    },
+    {
+      "id": "cost-and-performance-forecaster",
+      "name": "Cost & Performance Forecaster",
+      "category": "analysis",
+      "description": "Estimates infrastructure costs and performance characteristics before systems are built",
+      "path": "cost-and-performance-forecaster/prompt.md",
+      "context_window": "large",
+      "tags": ["cost", "performance", "scalability", "infrastructure", "forecasting", "architecture"]
     }
   ]
 }
