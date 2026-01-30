@@ -22,6 +22,7 @@ Each agent directory contains:
 | [Code Review](./code-review/)           | review      | Code review and quality feedback      |
 | [Debugging](./debugging/)               | development | Systematic bug diagnosis              |
 | [Infrastructure](./infrastructure/)     | engineering | DevOps, CI/CD, deployment pipelines   |
+| [PR Reviewer](./pr-reviewer/)           | review      | PR review with good/bad/ugly feedback |
 | [React Native](./react-native/)         | development | Cross-platform mobile app development |
 | [Refactoring](./refactoring/)           | development | Code structure improvement            |
 | [Technical Writer](./technical-writer/) | writing     | Documentation and technical writing   |
