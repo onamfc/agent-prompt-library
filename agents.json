@@ -137,6 +137,15 @@
       "tags": ["prompt-engineering", "meta", "quality", "robustness", "agent-design"]
     },
     {
+      "id": "pr-reviewer",
+      "name": "PR Reviewer",
+      "category": "review",
+      "description": "PR review with good/bad/ugly feedback on code quality, testing, and craftsmanship",
+      "path": "pr-reviewer/prompt.md",
+      "context_window": "large",
+      "tags": ["code-review", "pull-request", "craftsmanship", "quality", "testing", "refactoring"]
+    },
+    {
       "id": "cost-and-performance-forecaster",
       "name": "Cost & Performance Forecaster",
       "category": "analysis",
