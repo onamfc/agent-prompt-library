@@ -20,6 +20,15 @@
       "tags": ["naming", "branding", "business", "creativity", "analysis", "codebase"]
     },
     {
+      "id": "changelog-writer",
+      "name": "Changelog Writer",
+      "category": "writing",
+      "description": "Keep a Changelog compliant changelogs",
+      "path": "changelog-writer/prompt.md",
+      "context_window": "medium",
+      "tags": ["changelog", "releases", "versioning", "documentation", "keep-a-changelog"]
+    },
+    {
       "id": "code-review",
       "name": "Code Reviewer",
       "category": "review",
