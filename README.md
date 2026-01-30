@@ -18,6 +18,7 @@ Each agent directory contains:
 | Agent                                   | Category    | Description                           |
 |-----------------------------------------|-------------|---------------------------------------|
 | [Backend API](./backend-api/)           | development | Server-side applications and APIs     |
+| [Brand Architect](./brand-architect/)   | analysis    | Creative business naming from codebase analysis |
 | [Code Review](./code-review/)           | review      | Code review and quality feedback      |
 | [Debugging](./debugging/)               | development | Systematic bug diagnosis              |
 | [Infrastructure](./infrastructure/)     | engineering | DevOps, CI/CD, deployment pipelines   |

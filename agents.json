@@ -11,6 +11,15 @@
       "tags": ["backend", "api", "rest", "graphql", "server", "database"]
     },
     {
+      "id": "brand-architect",
+      "name": "Brand Architect",
+      "category": "analysis",
+      "description": "Creative business naming from codebase analysis",
+      "path": "brand-architect/prompt.md",
+      "context_window": "large",
+      "tags": ["naming", "branding", "business", "creativity", "analysis", "codebase"]
+    },
+    {
       "id": "code-review",
       "name": "Code Reviewer",
       "category": "review",
