@@ -162,6 +162,15 @@
       "path": "cost-and-performance-forecaster/prompt.md",
       "context_window": "large",
       "tags": ["cost", "performance", "scalability", "infrastructure", "forecasting", "architecture"]
+    },
+    {
+      "id": "pr-annotator",
+      "name": "PR Annotator",
+      "category": "writing",
+      "description": "Enriches PR descriptions with clickable GitHub diff links to exact changed lines",
+      "path": "pr-annotator/prompt.md",
+      "context_window": "large",
+      "tags": ["pull-request", "annotation", "diff", "documentation", "github", "links"]
     }
   ]
 }
