@@ -171,6 +171,15 @@
       "path": "pr-annotator/prompt.md",
       "context_window": "large",
       "tags": ["pull-request", "annotation", "diff", "documentation", "github", "links"]
+    },
+    {
+      "id": "docusaurus-writer",
+      "name": "Docusaurus Writer",
+      "category": "writing",
+      "description": "User-facing product documentation for Docusaurus sites from codebase analysis",
+      "path": "docusaurus-writer/prompt.md",
+      "context_window": "large",
+      "tags": ["documentation", "docusaurus", "product-docs", "user-facing", "mdx", "guides", "tutorials"]
     }
   ]
 }

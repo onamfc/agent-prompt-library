@@ -22,6 +22,7 @@ Each agent directory contains:
 | [Changelog Writer](./changelog-writer/) | writing     | Keep a Changelog compliant changelogs |
 | [Code Review](./code-review/)           | review      | Code review and quality feedback      |
 | [Debugging](./debugging/)               | development | Systematic bug diagnosis              |
+| [Docusaurus Writer](./docusaurus-writer/) | writing     | User-facing product docs for Docusaurus sites |
 | [Infrastructure](./infrastructure/)     | engineering | DevOps, CI/CD, deployment pipelines   |
 | [PR Annotator](./pr-annotator/)         | writing     | Enriches PR descriptions with clickable diff links |
 | [PR Reviewer](./pr-reviewer/)           | review      | PR review with good/bad/ugly feedback |
