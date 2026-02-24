@@ -28,6 +28,7 @@ Each agent directory contains:
 | [PR Reviewer](./pr-reviewer/)           | review      | PR review with good/bad/ugly feedback |
 | [React Native](./react-native/)         | development | Cross-platform mobile app development |
 | [Refactoring](./refactoring/)           | development | Code structure improvement            |
+| [Release Manager](./release-manager/)   | operations  | End-to-end release orchestration      |
 | [Technical Writer](./technical-writer/) | writing     | Documentation and technical writing   |
 
 See [`agents.json`](./agents.json) for the complete, machine-readable list.

@@ -180,6 +180,15 @@
       "path": "docusaurus-writer/prompt.md",
       "context_window": "large",
       "tags": ["documentation", "docusaurus", "product-docs", "user-facing", "mdx", "guides", "tutorials"]
+    },
+    {
+      "id": "release-manager",
+      "name": "Release Manager",
+      "category": "operations",
+      "description": "End-to-end release orchestration: merge PRs, bump versions, update changelogs, tag, and publish",
+      "path": "release-manager/prompt.md",
+      "context_window": "large",
+      "tags": ["release", "versioning", "changelog", "git", "ci-cd", "semantic-versioning", "conventional-commits"]
     }
   ]
 }
