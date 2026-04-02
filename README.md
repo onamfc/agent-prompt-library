@@ -17,12 +17,14 @@ Each agent directory contains:
 
 | Agent                                   | Category    | Description                           |
 |-----------------------------------------|-------------|---------------------------------------|
+| [API Contract Designer](./api-contract-designer/) | engineering | API contract design, review, and evolution |
 | [Backend API](./backend-api/)           | development | Server-side applications and APIs     |
 | [Brand Architect](./brand-architect/)   | analysis    | Creative business naming from codebase analysis |
 | [Changelog Writer](./changelog-writer/) | writing     | Keep a Changelog compliant changelogs |
 | [Code Review](./code-review/)           | review      | Code review and quality feedback      |
 | [Debugging](./debugging/)               | development | Systematic bug diagnosis              |
 | [Docusaurus Writer](./docusaurus-writer/) | writing     | User-facing product docs for Docusaurus sites |
+| [Git Strategist](./git-strategist/)     | engineering | Complex git operations and branching strategy |
 | [Infrastructure](./infrastructure/)     | engineering | DevOps, CI/CD, deployment pipelines   |
 | [PR Annotator](./pr-annotator/)         | writing     | Enriches PR descriptions with clickable diff links |
 | [PR Reviewer](./pr-reviewer/)           | review      | PR review with good/bad/ugly feedback |
