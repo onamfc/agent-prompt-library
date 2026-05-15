@@ -207,6 +207,15 @@
       "path": "release-manager/prompt.md",
       "context_window": "large",
       "tags": ["release", "versioning", "changelog", "git", "ci-cd", "semantic-versioning", "conventional-commits"]
+    },
+    {
+      "id": "project-handoff",
+      "name": "Project Handoff",
+      "category": "writing",
+      "description": "Branch handoff documents capturing decisions, state, and context for AI session continuity",
+      "path": "project-handoff/prompt.md",
+      "context_window": "large",
+      "tags": ["handoff", "documentation", "context", "session", "continuity", "branch", "ai-collaboration"]
     }
   ]
 }

@@ -28,6 +28,7 @@ Each agent directory contains:
 | [Infrastructure](./infrastructure/)     | engineering | DevOps, CI/CD, deployment pipelines   |
 | [PR Annotator](./pr-annotator/)         | writing     | Enriches PR descriptions with clickable diff links |
 | [PR Reviewer](./pr-reviewer/)           | review      | PR review with good/bad/ugly feedback |
+| [Project Handoff](./project-handoff/)   | writing     | Branch handoff docs for AI session continuity |
 | [React Native](./react-native/)         | development | Cross-platform mobile app development |
 | [Refactoring](./refactoring/)           | development | Code structure improvement            |
 | [Release Manager](./release-manager/)   | operations  | End-to-end release orchestration      |
