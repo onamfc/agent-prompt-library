@@ -18,13 +18,17 @@ Each agent directory contains:
 | Agent                                   | Category    | Description                           |
 |-----------------------------------------|-------------|---------------------------------------|
 | [API Contract Designer](./api-contract-designer/) | engineering | API contract design, review, and evolution |
+| [Avatar & Offer Researcher](./avatar-offer-researcher/) | marketing | Psychographic customer avatar and offer immersion |
 | [Backend API](./backend-api/)           | development | Server-side applications and APIs     |
 | [Brand Architect](./brand-architect/)   | analysis    | Creative business naming from codebase analysis |
 | [Changelog Writer](./changelog-writer/) | writing     | Keep a Changelog compliant changelogs |
+| [Claim Validator](./claim-validator/)   | marketing   | Attaches proof to marketing claims    |
 | [Code Review](./code-review/)           | review      | Code review and quality feedback      |
 | [Debugging](./debugging/)               | development | Systematic bug diagnosis              |
 | [Docusaurus Writer](./docusaurus-writer/) | writing     | User-facing product docs for Docusaurus sites |
+| [Gap & Bridge Architect](./gap-and-bridge-architect/) | marketing | Problem, solution, and CTA sections of a video script |
 | [Git Strategist](./git-strategist/)     | engineering | Complex git operations and branching strategy |
+| [Hook Architect](./hook-architect/)     | marketing   | High-volume video ad hooks with visual treatments |
 | [Infrastructure](./infrastructure/)     | engineering | DevOps, CI/CD, deployment pipelines   |
 | [PR Annotator](./pr-annotator/)         | writing     | Enriches PR descriptions with clickable diff links |
 | [PR Reviewer](./pr-reviewer/)           | review      | PR review with good/bad/ugly feedback |
@@ -32,9 +36,18 @@ Each agent directory contains:
 | [React Native](./react-native/)         | development | Cross-platform mobile app development |
 | [Refactoring](./refactoring/)           | development | Code structure improvement            |
 | [Release Manager](./release-manager/)   | operations  | End-to-end release orchestration      |
+| [Script Dimensionalizer](./script-dimensionalizer/) | marketing | Value stacks, comparison stacks, objection prevention |
+| [Script Finalizer](./script-finalizer/) | marketing   | Final word-for-word script, shot list, and variants |
 | [Technical Writer](./technical-writer/) | writing     | Documentation and technical writing   |
+| [Video Script Director](./video-script-director/) | marketing | Orchestrates a full direct response video script |
 
 See [`agents.json`](./agents.json) for the complete, machine-readable list.
+
+### Agent Suites
+
+Some agents are designed to work together. Call the orchestrator and it delegates to the rest.
+
+**Video Script Suite** — [Video Script Director](./video-script-director/) runs a four-phase pipeline (Research → Brainstorm → Dimensionalize → Finalize) that turns "here's what I sell" into a word-for-word shooting script. It delegates to [Avatar & Offer Researcher](./avatar-offer-researcher/), [Hook Architect](./hook-architect/), [Gap & Bridge Architect](./gap-and-bridge-architect/), [Claim Validator](./claim-validator/), [Script Dimensionalizer](./script-dimensionalizer/), and [Script Finalizer](./script-finalizer/). Each specialist also works standalone.
 
 ## Frontmatter Schema
 
@@ -43,7 +56,7 @@ Each `prompt.md` includes YAML frontmatter for tooling and searchability:
 ```yaml
 ---
 name: Agent Name
-category: engineering | development | review | writing | analysis | operations
+category: engineering | development | review | writing | analysis | operations | marketing
 models: ["claude-code", "cursor", "claude-api"]
 context_window: small | medium | large
 version: 1.0.0
@@ -60,6 +73,7 @@ tags: ["relevant", "tags"]
 - `writing` — docs, technical writing, copywriting
 - `analysis` — data, research, investigation
 - `operations` — support, triage, incident response
+- `marketing` — advertising, scripts, positioning, sales copy
 
 ### Context Window
 

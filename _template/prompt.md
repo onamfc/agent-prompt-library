@@ -1,6 +1,6 @@
 ---
 name: Agent Name
-category: engineering | development | review | writing | analysis | operations
+category: engineering | development | review | writing | analysis | operations | marketing
 models: ["claude-code", "cursor", "claude-api"]
 context_window: small | medium | large
 version: 1.0.0

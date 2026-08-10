@@ -216,6 +216,69 @@
       "path": "project-handoff/prompt.md",
       "context_window": "large",
       "tags": ["handoff", "documentation", "context", "session", "continuity", "branch", "ai-collaboration"]
+    },
+    {
+      "id": "video-script-director",
+      "name": "Video Script Director",
+      "category": "marketing",
+      "description": "Orchestrates a complete direct response video script from offer to word-for-word shooting script",
+      "path": "video-script-director/prompt.md",
+      "context_window": "large",
+      "tags": ["video", "script", "direct-response", "advertising", "storyboard", "orchestration", "copywriting"]
+    },
+    {
+      "id": "avatar-offer-researcher",
+      "name": "Avatar & Offer Researcher",
+      "category": "marketing",
+      "description": "Psychographic customer avatar and offer immersion research for marketing messaging",
+      "path": "avatar-offer-researcher/prompt.md",
+      "context_window": "large",
+      "tags": ["avatar", "psychographics", "customer-research", "offer", "positioning", "direct-response", "marketing"]
+    },
+    {
+      "id": "hook-architect",
+      "name": "Hook Architect",
+      "category": "marketing",
+      "description": "High-volume video ad hooks with visual treatments across seventeen attention-getting concepts",
+      "path": "hook-architect/prompt.md",
+      "context_window": "medium",
+      "tags": ["hook", "attention", "video", "advertising", "copywriting", "direct-response", "scroll-stopper"]
+    },
+    {
+      "id": "gap-and-bridge-architect",
+      "name": "Gap & Bridge Architect",
+      "category": "marketing",
+      "description": "The problem, solution, and call to action sections of a direct response video script",
+      "path": "gap-and-bridge-architect/prompt.md",
+      "context_window": "large",
+      "tags": ["gap", "pain-points", "offer", "call-to-action", "storyboard", "direct-response", "copywriting"]
+    },
+    {
+      "id": "claim-validator",
+      "name": "Claim Validator",
+      "category": "marketing",
+      "description": "Audits marketing claims and attaches proof via testimonials, case studies, research, and agreed facts",
+      "path": "claim-validator/prompt.md",
+      "context_window": "large",
+      "tags": ["testimonials", "case-studies", "social-proof", "credibility", "validation", "research", "direct-response"]
+    },
+    {
+      "id": "script-dimensionalizer",
+      "name": "Script Dimensionalizer",
+      "category": "marketing",
+      "description": "Adds logical and emotional weight to a script via value stacks, comparison stacks, and objection prevention",
+      "path": "script-dimensionalizer/prompt.md",
+      "context_window": "large",
+      "tags": ["value-stack", "comparison-stack", "objections", "positioning", "mechanism", "b-roll", "motion-graphics"]
+    },
+    {
+      "id": "script-finalizer",
+      "name": "Script Finalizer",
+      "category": "marketing",
+      "description": "Cuts a storyboard to its 80/20 and writes the final word-for-word script, shot list, and variants",
+      "path": "script-finalizer/prompt.md",
+      "context_window": "large",
+      "tags": ["script", "editing", "80-20", "read-aloud", "feedback", "variants", "direct-response"]
     }
   ]
 }
