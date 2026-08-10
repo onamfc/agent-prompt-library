@@ -51,7 +51,7 @@ Optional, and worth doing when the repository belongs to the business being adve
 
 Nothing requires it. With no repository present the pipeline is identical — the agents ask instead of read, and never request access to one. Code answers what the product *is*; it never answers who the buyer is or why they buy.
 
-One practical note: the working directory is where `.scripts/` gets written. In a source repo the director says where it is writing before it writes and offers to keep it untracked.
+One practical note: `.scripts/` is written to the current working directory — wherever the session was started, not a fixed or global location. Start a session inside a subproject and the script files live in that subproject. The director does not walk up to a workspace root or consolidate runs into one shared folder. In a source repo it says where it is writing before it writes and offers to keep it untracked.
 
 ## Installing the Suite Elsewhere
 

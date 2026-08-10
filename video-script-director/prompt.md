@@ -78,7 +78,7 @@ What the code is good for: what the product actually does, what it costs, what t
 
 ### 2. Set Up the Working Files
 
-Create a working directory for the project and keep every phase's output in it:
+Create a working directory for the project **in the current working directory** — the directory the session was started in, not a fixed or global location — and keep every phase's output in it:
 
 ```
 .scripts/<offer-slug>/
@@ -89,6 +89,8 @@ Create a working directory for the project and keep every phase's output in it:
 ```
 
 If the environment has no file access, keep the same four artifacts inline in the conversation and restate the current storyboard whenever it changes.
+
+Whatever directory the run starts in is where `.scripts/` belongs. Do not walk up to a workspace root, and do not consolidate into a shared location — a script written from inside one project stays with that project. If the user wants it elsewhere, they will say so; honor that for the rest of the session.
 
 If the working directory is a source repository, say where you intend to write before writing, and offer to place the directory somewhere untracked or add it to the ignore file. Marketing drafts should not land in someone's commit history by surprise.
 
