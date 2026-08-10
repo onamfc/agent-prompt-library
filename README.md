@@ -6,12 +6,27 @@ A collection of reusable AI agent prompts for development workflows.
 
 Each agent directory contains:
 
-| File           | Purpose                                             |
-|----------------|-----------------------------------------------------|
-| `prompt.md`    | The canonical prompt — copy/paste into your AI tool |
-| `README.md`    | When to use, model recommendations, limitations     |
-| `examples.md`  | Example interactions and outputs (optional)         |
-| `changelog.md` | Version history and iteration notes (optional)      |
+| File            | Purpose                                                        |
+|-----------------|----------------------------------------------------------------|
+| `prompt.md`     | The canonical prompt — copy/paste into your AI tool            |
+| `README.md`     | When to use, model recommendations, limitations                |
+| `delegation.md` | Routing description used when installing as a subagent (optional) |
+| `examples.md`   | Example interactions and outputs (optional)                    |
+| `changelog.md`  | Version history and iteration notes (optional)                 |
+
+## Installing
+
+Copy any `prompt.md` into your tool by hand, or install agents as Claude Code subagents with the bundled script:
+
+```bash
+./install.py --list                      # everything in the library
+./install.py video-script-director       # one agent, available in every project
+./install.py --category marketing        # a whole category
+./install.py --all --dry-run             # preview without writing
+./install.py hook-architect --project ~/code/app   # scope to one repository
+```
+
+Installs go to `~/.claude/agents/` by default, which makes an agent available everywhere; `--project` scopes it to a single repository instead. Existing files are left alone unless you pass `--force`. The script converts each `prompt.md` into subagent frontmatter, using `delegation.md` for the routing description when an agent ships one and the `agents.json` description otherwise. Standard library only — no dependencies.
 
 ## Agents
 
@@ -173,7 +188,9 @@ The prompt does NOT need to include:
 4. Update this README's agent index table
 5. Add your agent to `agents.json` manifest
 6. Optionally add `examples.md` if the agent's output format isn't obvious
-7. Keep prompts generic — avoid hardcoding specific tools or platforms
+7. Optionally add `delegation.md` if the agent needs richer routing guidance than the one-line manifest description — useful when it should only fire in specific situations, or is easily confused with a neighbouring agent
+8. Keep prompts generic — avoid hardcoding specific tools or platforms
+9. Verify it installs cleanly with `./install.py <your-agent> --dry-run`
 
 ## License
 
