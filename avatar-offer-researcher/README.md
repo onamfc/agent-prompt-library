@@ -31,6 +31,8 @@ Where an answer would materially change the script and cannot be inferred — re
 
 This is entirely optional. With no codebase the run is identical; it asks instead of reads, and it never requests a repository. Note that code answers the *offer* half of the exercise only — nothing in a repo tells you what humiliates your buyer or what keeps them awake, and the exercise does not get shorter because a codebase was there.
 
+One trap it is explicitly guarded against: "avatar" means the person *on camera* in video and synthetic-presenter tooling, and the person *watching* in direct response. A repo that produces video often holds presenter definitions under exactly the filenames this exercise would search for. The agent checks what a file actually contains — appearance, voice, framing, platform IDs mean talent, not buyer — and routes those to the finalize stage as voice and A-roll constraints instead of mining them for psychographics.
+
 ## The Fifteen Questions
 
 | Section | Questions |

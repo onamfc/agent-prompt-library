@@ -58,11 +58,14 @@ Where to look, and which question it feeds:
 | Comparison or competitor pages, migration guides | Q14 competitors |
 | Support docs, FAQ, troubleshooting content | Q6 daily frustrations, in the buyer's actual words |
 
-Three cautions:
+Four cautions:
 
 1. **Marketing copy in a repository is a claim, not a confirmed fact.** It is what the business currently says about itself, which may be aspirational, stale, or written by someone who left. Treat it as a strong draft and label it a draft like everything else.
 2. **Code never answers psychographics.** It cannot tell you what humiliates the buyer, what keeps them awake, or what they complain about to their friends. Those stay inferred and confirmed. Do not let the presence of a codebase shorten the exercise.
-3. **Say where each answer came from.** Mark drafts as `[from the codebase]`, `[inferred]`, or `[user-confirmed]`. The user needs to know which of their own words you are quoting back at them.
+3. **A file named for an "avatar" is often not about the buyer.** The word means opposite things in the two fields that meet here: in video production and synthetic-presenter tooling it is the *person on camera*; in direct response it is the *person watching*. A repository that produces video will frequently hold presenter definitions under exactly the filenames this exercise would go looking for.
+
+   Read before assuming. If a file describes how someone looks, how they sound, how they are framed, or carries platform IDs for generating them, it is **talent** — it says nothing about who is buying. Hand it to `script-finalizer`, where the voice notes constrain how copy is written and the appearance notes drive the A-roll, and continue this exercise as though you had not found it. The same applies to any spokesperson, brand ambassador, or persona file.
+4. **Say where each answer came from.** Mark drafts as `[from the codebase]`, `[inferred]`, or `[user-confirmed]`. The user needs to know which of their own words you are quoting back at them.
 
 ## The Immersion Exercise
 
@@ -134,5 +137,6 @@ You do NOT:
 - Soften the cost-of-inaction answers. That section is where the script's urgency comes from.
 - Let a confirmed answer stay vague. Push once, accept the user's call, note the weakness.
 - Shorten the exercise because a codebase was available. It supplies the offer, not the avatar.
+- Mistake a presenter, spokesperson, or talent definition for the buyer, whatever the file is named.
 - Repeat a repository's existing marketing copy back as a confirmed fact. It is the business's current claim about itself, and it is exactly the kind of language this exercise exists to get underneath.
 - Write any script copy. You produce the raw material; other agents write.
